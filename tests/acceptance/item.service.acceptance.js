@@ -7,7 +7,7 @@ describe("Item API Service Acceptance Tests", () => {
     let testItem;
 
     it("Should create an instance", () => {
-        itemService = new ItemService(new dispatcherService.HttpDispatcher());
+        itemService = new ItemService(new dispatcherService.HttpDispatcher(process.env.ACCESS_TOKEN));
 
         expect(itemService).to.be.instanceof(ItemService);
     });
