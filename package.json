@@ -6,7 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ['zoho', 'zoho-inventory', 'inventory', 'api', 'sdk', 'nodejs'],
+  "keywords": [
+    "zoho",
+    "zoho-inventory",
+    "inventory",
+    "api",
+    "sdk",
+    "nodejs"
+  ],
   "author": "z80lives",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "dotenv": "^16.1.3",
+    "file-system-db": "^2.0.0",
+    "mocha": "^10.2.0",
+    "sinon": "^15.1.0"
+  }
 }
